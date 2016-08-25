@@ -20,7 +20,7 @@ def split_array(a)
 	[a.take(mid), a.drop(mid)]
 	# return a.take(mid), a.drop(mid)
 end
-
+# sdpskdf
 # precondition: a and b are sorted
 def combine(a, b)
 	result = []
@@ -57,6 +57,6 @@ end
 # TEST IT
 a = [6,23,53,1,2,5,62,61,33,21,14,6,23]
 a = a.shuffle
-puts "ORIGINAL \n" + a.to_s 
+puts "ORIGINAL \n" + a.to_s
 a = mergesort(a)
-puts "AFTER MERGESORT \n" + a.to_s 
+puts "AFTER MERGESORT \n" + a.to_s
